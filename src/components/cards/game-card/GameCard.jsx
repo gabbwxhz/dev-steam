@@ -6,7 +6,7 @@ import Button from '@/components/button/Button'
 export default function GameCard() {
   return (
     <div className={styles.gameCard}>
-      <Image src="/products/katana-zero.jpg" width={350} height={145} />
+      <Image className={styles.image} src="/products/katana-zero.jpg" width={350} height={145} />
 
       <div className={styles.info}>
         <h3 className={styles.title}>katana zero</h3>
