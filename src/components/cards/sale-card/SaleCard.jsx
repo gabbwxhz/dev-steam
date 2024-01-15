@@ -19,7 +19,7 @@ export default function SaleCard() {
           </div>
         </div>
 
-        <Button>Adicionar ao Carrinho</Button>
+        <Button fullWidth>Adicionar ao Carrinho</Button>
       </div>
     </div>
   )
