@@ -24,9 +24,24 @@ export default function Home() {
           <Subtitle>Promoções</Subtitle>
 
           <div className={styles.saleContainer}>
-            <SaleCard />
-            <SaleCard />
-            <SaleCard />
+            <SaleCard
+              image={'mordhau.jpg'}
+              discount={'30%'}
+              fullPrice={'88,99'}
+              discountPrice={'62,23'}
+            />
+            <SaleCard
+              image={'little-nightmares-ii.webp'}
+              discount={'18%'}
+              fullPrice={'127,45'}
+              discountPrice={'104,50'}
+            />
+            <SaleCard
+              image={'ac-black-flag.webp'}
+              discount={'80%'}
+              fullPrice={'119,99'}
+              discountPrice={'23,99'}
+            />
           </div>
         </div>
 
@@ -34,9 +49,24 @@ export default function Home() {
           <Subtitle>Outros Jogos</Subtitle>
 
           <div className={styles.gamesContaienr}>
-            <GameCard />
-            <GameCard />
-            <GameCard />
+            <GameCard
+              image={'katana-zero.jpg'}
+              name={'katana zero'}
+              info={'gráficos pixelados, ação, plataforma'}
+              price={'46,99'}
+            />
+            <GameCard
+              image={'slime-rancher-2.jpg'}
+              name={'slime rancher 2'}
+              info={'fofo, colorido, relaxante'}
+              price={'89,99'}
+            />
+            <GameCard
+              image={'ghost-reecon.jpg'}
+              name={`Tom Clancy's Ghost Recon® Wildlands`}
+              info={'mundo abereto, tiroteio, cooperativo'}
+              price={'46,99'}
+            />
           </div>
         </div>
       </Container>
