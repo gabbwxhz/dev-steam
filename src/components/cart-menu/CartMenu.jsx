@@ -3,10 +3,6 @@ import CartOption from '../cart-option/CartOption'
 import Button from '../button/Button'
 
 export default function CartMenu({ cart, onRemove }) {
-  const calculateTotalPrice = () => {
-    return cart.reduce((prev, current) => prev + current.price, 0)
-  }
-
   return (
     <div className={styles.menu}>
       <div className={styles.options}>
@@ -25,7 +21,9 @@ export default function CartMenu({ cart, onRemove }) {
       </div>
       <div className={styles.priceline}>
         <h2>Total</h2>
-        <h2 className={styles.price}>R$ {calculateTotalPrice().toFixed(2)}</h2>
+        <h2 className={styles.price}>
+          R$ {cart.reduce((prev, current) => prev + current.price, 0).toFixed(2)}
+        </h2>
       </div>
       <Button fullWidth>Finalizar Compra</Button>
     </div>
