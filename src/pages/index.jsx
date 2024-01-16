@@ -65,7 +65,7 @@ export default function Home() {
               image={'ghost-reecon.jpg'}
               name={`Tom Clancy's Ghost Recon® Wildlands`}
               info={'mundo abereto, tiroteio, cooperativo'}
-              price={'46,99'}
+              price={'138,00'}
             />
           </div>
         </div>
