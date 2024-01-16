@@ -24,6 +24,11 @@
 
 .price {
   color: #beeb14;
+  margin-bottom: 20px;
+}
+
+.productAlert{
+  margin-top: 20px;
 }
 
 @media (max-width: 500px){
