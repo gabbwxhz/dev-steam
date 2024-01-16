@@ -4,7 +4,7 @@ import Button from '../button/Button'
 
 export default function CartMenu({ cart, onRemove }) {
   const calculateTotalPrice = () => {
-    return cart.reduce((prev, current) => prev + current.price, 0).toFixed(2)
+    return cart.reduce((prev, current) => prev + current.price, 0)
   }
 
   return (
