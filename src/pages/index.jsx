@@ -64,7 +64,7 @@ export default function Home() {
             <GameCard
               image={'ghost-reecon.jpg'}
               name={`Tom Clancy's Ghost Recon® Wildlands`}
-              info={'mundo abereto, tiroteio, cooperativo'}
+              info={'mundo aberto, tiroteio, cooperativo'}
               price={'138,00'}
             />
           </div>
