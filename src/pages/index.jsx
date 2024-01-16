@@ -41,7 +41,7 @@ export default function Home() {
               fullPrice={'88,99'}
               discountPrice={'62,23'}
               onAdd={() =>
-                handleAddProduct({ name: 'Mordhau', price: 88.99, image: 'mordhau.jpg' })
+                handleAddProduct({ name: 'Mordhau', price: 62.23, image: 'mordhau.jpg' })
               }
             />
             <SaleCard
@@ -52,7 +52,7 @@ export default function Home() {
               onAdd={() =>
                 handleAddProduct({
                   name: 'Little Nightmares II',
-                  price: 127.45,
+                  price: 104.5,
                   image: 'little-nightmares-ii.webp'
                 })
               }
@@ -65,7 +65,7 @@ export default function Home() {
               onAdd={() =>
                 handleAddProduct({
                   name: `Assassin's Creed IV: Black Flag`,
-                  price: 119.99,
+                  price: 23.99,
                   image: 'ac-black-flag.webp'
                 })
               }
